@@ -1,0 +1,55 @@
+.botaoHome {
+  margin-left: 46%;
+  margin-top: 5%;
+  background-color: #F57061;
+}
+
+ngb-carousel .wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 55%;
+  /* Keep ratio for 900x500 images */
+}
+
+ngb-carousel .wrapper>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.owl-carousel.owl-loaded {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.subIndex {
+  margin-top: 2em;
+}
+.promo-area {
+  background-color: #f4f4f4;
+}
+.maincontent-area {
+  background-color: #ffff;
+}
+@media only screen and (max-width: 600px)  {
+  .related-products-carousel{
+      display: grid;
+      flex-wrap: nowrap;
+      margin-bottom: 3em;
+      justify-content: space-around;
+  }
+  .owl-carousel.owl-loaded {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
+.logo{
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+.cor-fundo{
+  background-color: #FFFF;
+}

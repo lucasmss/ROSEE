@@ -1,0 +1,47 @@
+.rowMenu {
+  margin: 0;
+  padding: 0;
+}
+
+.ajustMenu {
+  margin-top: 3em;
+  text-align: center;
+  float: left;
+  margin-top: -76px;
+}
+
+.ajustIcon {
+  margin-right: 0.3em;
+  margin-top: 0.11em;
+}
+
+.menuPrincipal {
+  background-color: #f8f8f8;
+}
+
+.liNav {
+  display: block;
+  text-align: center;
+}
+
+#navbarAjuste {
+  margin-left: 6em;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.logo {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+.cor-fundo {
+  background-color: #FADBC3;
+}
+
+.cor-fundo-nav {
+  background-color: #EBC8A7;
+}
